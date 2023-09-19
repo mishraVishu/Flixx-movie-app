@@ -1,0 +1,256 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #020d18;
+    --color-secondary: #f1c40f;
+  }
+
+body{
+    color: #fff;
+    font-size: 16px;
+    overflow-x: hidden;
+    background: var(--color-primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+}
+
+.container{
+    width:70vw;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color:var(--color-secondary);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul{
+    padding:1rem;
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    padding:1rem;
+}
+
+.now-playing{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url("./images/showcase-bg.jpg");
+}
+
+.search-form{
+    width:100vw;
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-radio{
+    padding:1rem;
+}
+
+.search-input-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="text"]{
+    width:30vw;
+    padding:1rem;
+    border-radius: 7px;
+    border:1px solid white;
+    background-color: var(--color-primary);
+}
+
+input[type="text"]::placeholder{
+    color:white;
+}
+
+button[type="submit"]{
+    width: 7vw;
+    padding:1rem;
+    margin-left: 1rem;
+    border-radius: 7px;
+    background-color: var(--color-secondary);
+}
+
+button[type="submit"]:hover{
+    border-radius:7px;
+    color:var(--color-secondary);
+    background-color: var(--color-primary);
+    border:1px solid var(--color-secondary);
+}
+
+.main-div{
+    display: flex;
+    margin-top:2rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-section{
+    width:85vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 1rem;
+    height: 64vh;
+    width: 18vw;
+    padding: 5px;
+    color: white;
+    background-color: #04376b;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s ease-out;
+}
+
+img{
+    width: 17.3vw;
+    height: 50vh;
+}
+
+.card-body{
+    padding:1rem;
+}
+
+.tv-details-main-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-width{
+    width:70vw;
+}
+
+.back-button:hover{
+    padding:0.7rem;
+    background-color: var(--color-secondary);
+    border-radius: 7px;
+    color:black;
+}
+
+.back-button{
+    margin-top: 3rem;
+    border:1px solid var(--color-secondary);
+    background-color: var(--color-primary);
+    border-radius: 7px;
+    padding:0.7rem;
+}
+
+.shows-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3rem;
+}
+
+.img-div{
+    height:70vh;
+    width:25vw;
+    margin-right: 3rem;
+}
+
+.shows-content-div > h2{
+    text-align: center;;
+}
+
+.rating,.release-date,.content-div,.genre,.com-info{
+    margin:1rem;
+}
+
+.show-info >h2{
+text-align: center;
+}
+
+.info{
+    width:70vw;
+}
+
+.info>p{
+    color:var(--color-secondary);
+    border-bottom:1px solid #ccc;
+    padding: 1rem;
+}
+
+.pagination-wrapper{
+    width:100vw;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination{
+    width:80vw;
+}
+
+.btn{
+    width:5vw;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding:0.7rem;
+    color:white;
+    border-radius: 7px;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-secondary);
+}
+
+.btn:hover{
+    width:5vw;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding:0.7rem;
+    color:black;
+    border-radius: 7px;
+    background-color: var(--color-secondary);
+}
+
+
+footer{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
