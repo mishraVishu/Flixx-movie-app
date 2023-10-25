@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Remove Elements</title>
+</head>
+
+<body>
+    <h1>Remove Elements</h1>
+    <header id="header">
+        <h2>Shopping List</h2>
+    </header>
+    <div class="container">
+        <ul id="ul">
+            <div class="item">
+                <li class="item1">Apple</li>
+                <button class="del-btn" onclick="removeItem('.item1')">Delete</button>
+            </div>
+            <div class="item">
+                <li class="item2">Milk</li>
+                <button class="del-btn" onclick="removeItem('.item2')">Delete</button>
+            </div>
+            <div class="item">
+                <li class="item3">Bread</li>
+                <button class="del-btn" onclick="removeItem('.item3')">Delete</button>
+            </div>
+            <div class="item">
+                <li class="item4">Butter</li>
+                <button class="del-btn" onclick="removeItem('.item4')">Delete</button>
+            </div>
+            <div class="item">
+                <li class="item5">Oreos</li>
+                <button class="del-btn" onclick="removeItem('.item5')">Delete</button>
+            </div>
+        </ul>
+    </div>
+    <div>
+        <button class="btn" onclick="removeClearButton()">Clear ALL</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

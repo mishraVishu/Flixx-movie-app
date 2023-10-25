@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Input Events</title>
+</head>
+
+<body>
+    <h1>Input Events</h1>
+    <header class="header">
+        <img  class="img" src="./shoppingList.png" alt="shopping list logo">
+        <h2 id="heading">Shopping List</h2>
+    </header>
+    <div class="input-div">
+        <input type="text" placeholder="Enter Item" id="textInput">
+    </div>
+    <div class="input-div"> 
+        <select name="priority" id="priority-input">
+            <option value="0">Select priority</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+    <div class="input-div">
+        <input type="checkbox" class='checkbox' name="checkbox" id="checkbox-input">Recurring Items
+    </div>
+    <div class="container">
+        <ul id="ul">
+            <div class="item">
+                <li class="item1">Apple</li>
+                <button class="del-btn" onclick="removeItem('.item1')">Delete</button>
+            </div>
+            <div class="item">
+                <li class="item2">Milk</li>
+                <button class="del-btn" onclick="removeItem('.item2')">Delete</button>
+            </div>
+            <div class="item">
+                <li class="item3">Bread</li>
+                <button class="del-btn" onclick="removeItem('.item3')">Delete</button>
+            </div>
+            <div class="item">
+                <li class="item4">Butter</li>
+                <button class="del-btn" onclick="removeItem('.item4')">Delete</button>
+            </div>
+            <div class="item">
+                <li class="item5">Oreos</li>
+                <button class="del-btn" onclick="removeItem('.item5')">Delete</button>
+            </div>
+        </ul>
+    </div>
+    <div>
+        <button class="btn">Clear ALL</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

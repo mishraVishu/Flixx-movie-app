@@ -1,0 +1,8 @@
+with bubbling, the event is first captured and handled by the innermost element and then propagated to the outer elements.
+
+Example 
+             ^
+Document     |
+Body         |
+Div          |
+Button       |

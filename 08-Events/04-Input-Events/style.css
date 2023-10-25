@@ -1,0 +1,59 @@
+.container{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+}
+
+.img{
+    height:80px;
+    width:80px;
+}
+
+.logo{
+    height:150px;
+    width:150px;
+}
+
+.item{
+    padding:10px 10px 10px 6px;
+    border: 1px solid #ccc;
+    margin:10px;
+    width:30vw;
+}
+
+.del-btn{
+    float: right;
+    position: relative;
+    top:-17px;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px;
+    width:45vw;
+    margin:10px;
+}
+
+.input-div{
+    margin-left:3rem;
+}
+
+input{
+    width:15rem;
+    padding:0.5rem;
+}
+
+select{
+    width:16.3rem;
+    padding:0.5rem;
+    margin-top:10px;
+}
+
+.checkbox{
+    width:1rem;
+    margin-top:10px;
+}

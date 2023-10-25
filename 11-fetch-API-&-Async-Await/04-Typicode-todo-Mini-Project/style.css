@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:1rem;
+    margin:1rem;
+}
+
+header{
+    margin: 1rem;;
+}
+
+input{
+    padding:0.3rem;
+    width:20%;
+    border-radius: 7px;
+}
+
+button{
+    padding:0.5rem;
+    width:10%;
+    border-radius: 5px;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.todo-list{
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.normal{
+    border:1px solid black;
+    border-radius: 3px;
+    padding:1rem;
+    margin: 10px;
+    width:max-content;
+}
+
+.done{
+    border:1px solid black;
+    border-radius: 3px;
+    padding:1rem;
+    margin: 10px;
+    background-color: #ccc; 
+}

@@ -1,0 +1,19 @@
+.container{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.item{
+    padding:10px;
+    border: 1px solid #ccc;
+    margin:10px;
+    width:30vw;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px;
+    width:45vw;
+    margin:10px;
+}
